@@ -9,7 +9,7 @@ import io
 import os
 
 # Configurar Tesseract con variables de entorno
-os.environ['TESSDATA_PREFIX'] = r'C:\Program Files\Tesseract-OCR\tessdata'
+# os.environ['TESSDATA_PREFIX'] = r'C:\Program Files\Tesseract-OCR\tessdata'
 # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 # ===============================
@@ -719,4 +719,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
