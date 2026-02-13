@@ -1,0 +1,17 @@
+streamlit>=1.30.0
+pdf2image>=1.16.3
+Pillow>=10.0.0
+pytesseract>=0.3.10
+pandas>=2.0.0
+openpyxl>=3.1.0
+spacy>=3.7.0
+opencv-python>=4.8.0
+easyocr>=1.7.0
+
+# 🧠 AUTO-APRENDIZAJE Y VALIDACIÓN INTELIGENTE
+thefuzz>=0.22.0         # Auto-corrección de nombres (FuzzyWuzzy)
+pydantic>=2.5.0        # Validación automática de datos
+img2table>=1.2.0       # Detección inteligente de estructura de tablas
+
+# Opcional: Para extracción con LLM
+# openai>=1.12.0
